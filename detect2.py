@@ -174,7 +174,7 @@ def detect(save_img=False):
 
     print(f'Done. ({time.time() - t0:.3f}s)')
 
-    detectDict = {'fileName':fName, 'detected': detected}
+    detectDict = {'fileName':f_name, 'detected': detected}
     df = pd.DataFrame(data=detectDict)  # changes made by GASE
     display(df)  # changes made by GASE
 
